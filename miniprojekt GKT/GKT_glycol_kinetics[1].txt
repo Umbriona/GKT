@@ -1,0 +1,116 @@
+GKT Project 2012 
+
+Glycol Production Reactor/Kinetic Information 
+
+ 
+
+Ethylene and propylene glycol can be produced by the hydrolysis of ethylene or propylene 
+oxide. For ethylene oxide the reaction is: 
+
+ 
+
+ CH2CH2CH2CH2OHOHOHO2+
+
+ 
+
+In most industrial processes the ethylene/propylene oxide is thermally hydrolyzed in a liquid 
+phase reaction to ethylene glycol without a catalyst. The ethylene/propylene oxide and water 
+mixture is preheated to 150-200ºC at an elevated pressure before feeding to a reactor. 
+
+ 
+
+Ethylene/propylene oxide can also readily react with ethylene/propylene glycol to produce di-
+, tri- and polyethylene/polypropylene glycols. The formation of these undesired side products 
+is minimized by carrying out the reaction with a large excess of water. A 20-fold molar 
+excess of water is typically employed. In addition plug-flow reactors are superior to stirred-
+tank reactors for selectively producing ethylene/propylene glycol. Finally the conversion of 
+ethylene/propylene oxide should not exceed 80% to maintain the formation of 
+polyethylene/polypropylene glycols to a negligible level. 
+
+ 
+
+The reactions are exothermic, however due to the large excess of water used the adiabatic 
+temperature increase is small. As a result the reactor can usually be operated without cooling 
+to control the temperature. 
+
+ 
+
+ 
+
+Kinetics of ethylene oxide hydrolysis 
+
+ 
+
+Ethylene oxide + H2O . ethylene glycol 
+
+A + H2O . B 
+
+ 
+
+Since the reaction is carried out with a large excess of water, the reaction rate can be 
+considered to be pseusdo first order with respect to the ethylene oxide concentration. The rate 
+expression is: 
+
+ 
+
+ AArkC..
+
+ 
+
+ expAEkART
+..
+....
+..
+
+ 
+
+k = 0.311 min-1 at 200ºC 
+
+E = 110 kJ mol-1 
+
+ 
+
+ 
+
+Kinetics of propylene oxide hydrolysis 
+
+ 
+
+propylene oxide + H2O . propylene glycol 
+
+A + H2O . B 
+
+
+ 
+
+ 
+
+Similar to ethylene oxide hydrolysis the rate expression is: 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+k = 0.218 min-1 at 200ºC 
+
+E = 120 kJ mol-1 
+
+ 
+
+ 
+
+A helpful source of thermochemical data that you will require is the NIST chemistry database: 
+
+http://webbook.nist.gov/chemistry/ 
+
+ 
+
+ 
+
+

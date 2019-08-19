@@ -1,0 +1,140 @@
+Fysikalisk-kemiska data till projekten i GKT VT11 
+
+Ångtryck – ångtrycken beräknas med Antoineuttryck med konstanter enligt nedan. 
+
+Bi
+
+Antoinesekvation: lnPio(mmHg)=Ai
+
+
+T(K)+Ci 
+
+
+Komponent A B C 
+Eten 15.5368 1347.01 -18.15 
+Etan 15.6637 1511.42 -17.16 
+Vatten 
+Propylenglykol 
+Propen 
+Propan 
+Metanol 
+18.3036 
+20.5324 
+15.7027 
+15.7260 
+18.5875 
+3816.44 
+6091.95 
+1807.53 
+1872.46 
+3626.55 
+-46.13 
+-22.46 
+-26.15 
+-25.26 
+-34.29 
+Etylenglykol 
+Etylenoxid 
+Buten 
+20.2501 
+16.7400 
+15.7564 
+6022.18 
+2567.61 
+2132.42 
+-28.25 
+-29.01 
+-33.15 
+Butan 15.5381 2032.73 -33.15 
+Vätgas 13.6333 164.90 3.19 
+
+För att beräkna fasjämvikten mellan ånga och vätska för de binära systemen kan 
+Wilsonekvationen användas. 
+
+ln . 
+=- 
+ln (x 
++ 
+x 
+. 
+)+ 
+x 
+. 
+: ln . 
+=- 
+ln (x 
++ 
+x 
+. 
+)- 
+x 
+x
+
+1 1212 2 2 2121 1 
+
+LL
+
+12 21 
+
+. 
+= - 
+
+
+x +. 
+x 
+x +. 
+x
+
+1 12 2 2 21 1 
+
+Binärt system L12 L21 
+Eten(1) – Etan(2) 1.10698 0.67066 
+Vatten (1) – Propylenglykol (2) 3.933 1.66×10-7 
+Metanol (1) – Vatten (2) 
+Etylenglykol (1) -Vatten (2) 
+Buten (1) – Butan (2) 
+Propen (1) – Propan (2) 
+0.43045 0.94934 
+0.2070 0.8247 
+0.48584 1.64637 
+Se nedan! 
+
+Systemet propen/propan kan anses idealt varför fasjämvikten beräknas med relativa 
+flyktigheten 
+
+
+Separation genom Flash -Dimensionering 
+Diametern, D, för en flashtank kan beräknas genom 
+
+=. 
+4V 
+(m) 
+
+p·0.15ut 
+
+
+där 
+
+ (!"#!$)
+
+ut=0.07·. 
+(m/s) 
+
+V är volymflödet av gasen, m3/s, vid aktuellt tillstånd. Vätskehöjden, HL, i flashen kan 
+beräknas ur 
+
+'. 
+= 
+*(·. 
+(m) 
+
+där L är vätskeflödet från flashen 
+
+t 
+är uppehållstiden. Vi kan sätta 10 minuter. 
+
+D är flashens diameter 
+
+För att bestämma höjden på flashen kan denna beräknas från H = HL + 1.5×D. 
+
+

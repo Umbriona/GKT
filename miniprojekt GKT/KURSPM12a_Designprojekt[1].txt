@@ -1,0 +1,391 @@
+CHALMERS TEKNISKA HÖGSKOLA Kurs-PM 
+Institutionen för kemi-och bioteknik 2012-03-05 
+
+Sid nr 1 av 9 
+
+KURS-PM – Designprojekt i Grundläggande kemiteknik 
+
+KURS: Grundläggande kemiteknik, GKT (10.5 hp) KAA146 
+LÄSÅR: 2011/2012 Läsperiod 4 
+FÖR: Civilingenjörsprogram kemiteknik, 180p 
+
+Civilingenjörsprogram kemiteknik med fysik, 180p 
+
+EXAMINATOR och KURSANSVARIG: Krister Ström 
+
+FÖRKUNSKAPER 
+
+Kursen Grundläggande kemiteknik, GKT, bygger vidare på tidigare kurser i utbildningen. 
+Inom ramen för kursen Termodynamik studerades ånga-vätskajämvikter samt termodynamik 
+för reagerande system. Från kursen Transportprocesser rörande de fysikaliska enhetsförloppen 
+med impuls-, värme och masstransport som grund, studerar vi nu några 
+kemitekniska applikationer. Den rena kemin ingår från kursen Fysikalisk kemi där reaktionshastigheter 
+(kinetik), jämviktsförskjutning, fasjämvikter osv. studerades. Detta designprojekt 
+förutsätter kunskaper från teoridelen av kursen Grundläggande kemiteknik. 
+
+SYFTE 
+
+I designprojektet integreras kunskaper från teoriavsnitten av kursen från läsperiod 3 på en 
+större projektuppgift. Syftet är att arbeta med ett större projekt som innefattar allt från att ta 
+fram reaktionsvägar, flödesschema, bygga en simuleringsmodell samt genomföra en 
+kostnadsuppskattning för en process. 
+
+INNEHÅLL 
+
+Under kursen första del behandlades strategier för processdesign och vi började tidigt med att 
+bygga ett flödesschema för en process. Därefter studerades olika typer av ideala reaktorer, 
+separationsutrustningar med framförallt destillation samt energiutrustningar, framförallt 
+värmeväxling. Detta bygger vi nu vidare på i ett designprojekt genom att studenter arbetar i 
+projektgrupper och bygger en simuleringsmodell i MATLAB för en process. Vidare ingår att 
+finna en lämplig reaktionsväg samt kostnadsuppskatta processen. 
+
+ALLMÄN BESKRIVNING OCH ORGANISATION 
+
+Projektuppgiften behandlar framställning av en produkt från en given reaktant. 
+Projektgruppen ska ge förslag till reaktionsväg samt flödesschema för processen. Baserat på 
+dessa förutsättningar ska en reaktor modelleras tillsammans med olika reaktionssteg samt 
+anordningar för värmning och kylning. Utifrån den modell som byggs upp studeras inverkan 
+av olika processparametrar som t.ex recirkulationsgrad och val av temperaturnivåer. Inom 
+ramen för projektet ingår också att uppskatta kapital-och driftkostnad för processen. Projektet 
+rapporteras skriftligt och muntligt. 
+
+Förutsättningar 
+I en processanläggning skall en produkt B framställas. Uppgiften är att utgående från en 
+råvara A 
+
+
+CHALMERS TEKNISKA HÖGSKOLA Kurs-PM 
+Institutionen för kemi-och bioteknik 2012-03-05 
+Sid nr 2 av 9 
+
+1. 
+ta fram relevant reaktionsväg 
+2. ett flödesschema för processen. 
+Baserat på dessa förutsättningar 
+1. 
+skall en modell av reaktorn, 
+2. 
+de olika separationsstegen 
+3. 
+anordningar för värmning/kylning samt tryckhöjning för pumpar och kompressorer 
+formuleras i MATLAB. 
+Med MATLABmodellen illustreras inverkan av t.ex. recirkulation och temperaturval. En 
+uppskattning av kapital-och driftskostnad görs också. 
+
+Rapportering 
+För godkänt i projektkursen krävs en tydlig skriftlig redovisning. Rapporten skall innehålla 
+följande: 
+
+• 
+Sammanfattning innehållande förutsättningar, bakgrund, syfte med uppgiften, max ½ 
+sida. 
+• 
+Innehållsförteckning 
+• 
+Tydligt flödesschema över den tänkta processutformningen med angivna tryck, 
+temperaturer och sammansättningar. 
+• 
+En tydlig redovisning av de olika beräkningsstegen och tydlig redovisning av vilka 
+antaganden som är gjorda. 
+• 
+I resultat skall en tydlig tabell redovisa alla kostnader och storlekar på de olika 
+utrustningarna. 
+• 
+En tabell med angivande av flöden, temperatur, tryck och sammansättningar för 
+strömmar anges i rapporten. 
+• 
+I resultatet skall en tydlig tabell med driftskostnader och investeringskostnader för all 
+utrustning beskrivas. 
+• 
+Innan slutsatsen skall en diskussion finnas där resultatet diskuteras och hur antaganden 
+ni gjort påverkar slutresultatet. Alternativa processutformningar skall även diskuteras 
+och om det finns något som kan förbättra processen. 
+• 
+Källhänvisning. En tydlig källhänvisning skall finnas i slutet av rapporten. 
+• 
+Som bilaga skall MATLABkod bifogas (som bilaga i rapporten samt som m.fil i 
+filinlämningen). Denna kod skall vara tydligt kommenterad och lätt att följa. Alla 
+resultat som återfås i matlab skall finnas redovisade i rapporten. För att rätta rapporten 
+skall man inte behöva köra m.filen för att få resultaten. 
+Rapporter som inte innehåller ovanstående blir inte godkända 
+
+
+CHALMERS TEKNISKA HÖGSKOLA Kurs-PM 
+Institutionen för kemi-och bioteknik 2012-03-05 
+Sid nr 3 av 9 
+
+Processalternativ 
+Anmälan till projektgrupper enligt nedan görs på kurshemsidan. 
+
+
+Produktion [ton/år] 
+
+Grupp 1 Framställning av propen ur propan genom dehydrering 25 000 
+Grupp 2 Framställning av propen ur propan genom dehydrering 50 000 
+Grupp 3 Framställning av propen ur propan genom dehydrering 75 000 
+Grupp 4 Framställning av propylenglykol ur propylenoxid 25 000 
+Grupp 5 Framställning av propylenglykol ur propylenoxid 75 000 
+Grupp 6 Framställning av metanol ur kolmonoxid 25 000 
+Grupp 7 Framställning av metanol ur kolmonoxid 75 000 
+Grupp 8 Framställning av eten ur etan genom dehydrering 25 000 
+Grupp 9 Framställning av eten ur etan genom dehydrering 75 000 
+Grupp 10 Framställning av etylenglykol ur etylenoxid 25 000 
+Grupp 11 Framställning av etylenglykol ur etylenoxid 75 000 
+Grupp 12 Framställning av buten ur butan genom dehydrering 25 000 
+Grupp 13 Framställning av buten ur butan genom dehydrering 50 000 
+Grupp 14 Framställning av buten ur butan genom dehydrering 75 000 
+
+Förslag till uppdelning av arbetet inom grupperna -arbetsformer 
+
+1. 
+Utse en samordnare. En person som håller ordning på att alla deluppgifterna görs och 
+samordnas samt sänder delrapporteringar och rapportering via filinlämning på 
+kurshemsidan 
+2. 
+Fördela arbetet mellan gruppmedlemmarna t.ex. så att delgrupper löser uppgifter som 
+a. modell för reaktorn och ett MATLABprogram 
+b. 
+modell för separationsstegen och ett MATLABprogram 
+c. modell för värmeväxling alt kylning/värmning och ett MATLABprogram 
+d. 
+fysikalisk-kemiska data, jämviktsdata, kinetikdata, beskrivning av process 
+e. övergripande MATLABmodell och testar olika driftsfall 
+f. 
+bestämmer designdata 
+g. 
+bestämmer kapital-och driftskostnader 
+h. 
+sammanställning skriftlig slutrapport 
+3. 
+Presentationsmaterial för den muntliga redovisningen 
+Projektgrupperna föreslås arbeta efter en projektplan som gruppen fastlägger. Under 
+läsperioden kommer schemalagda konsultationstillfällen finnas där projektgrupperna kan få 
+råd hur man kan gå vidare med problemställningarna. Dessa tider finns presenterade nedan. I 
+schema finns bokade lokaler så att grupperna under första veckan kan arbeta med planering 
+av projektarbetet samt arbete med flödesplan och först och främst reaktor. Under första 
+läsveckan genomförs arbetet i projektgrupperna. Konsultationerna startar läsvecka två. För att 
+underlätta arbetet med MATLAB finns datasalar bokade, se schema i TimeEdit. 
+
+
+CHALMERS TEKNISKA HÖGSKOLA Kurs-PM 
+Institutionen för kemi-och bioteknik 2012-03-05 
+Sid nr 4 av 9 
+
+KONSULTATIONSTIDER 
+
+Läsvecka Måndag Tisdag Torsdag 
+Läsperiod 4 Separationer 
+Reaktorer 
+Separationer 
+Värmeväxling 
+Reaktorer 
+Värmeväxling 
+2 Kl. 13 -15 Kl. 13 -15 
+3 Kl. 8 -9 Kl. 13 -15 Kl. 13 -15 
+4 Kl. 8 -9 Kl. 13 -15 
+5 Kl. 8 -9 Kl. 13 -15 Kl. 13 -15 
+6 Kl. 13 -15 
+7 Kl. 8 -9 Kl. 13 -15 Kl. 13 -15 
+
+Under läsvecka 1 i läsperioden arbetar grupperna självständigt med att utveckla processplan 
+och reaktormodell vid schemalagda tillfällen. Lokal för samtliga konsultationer är 
+seminarierummet på Avdelningen för kemiteknik, Forskarhus II, plan 2. 
+
+LITTERATUR 
+
+Dokumentation och bakgrundsmaterial till projekten finns att tillgå på kurshemsidan under 
+”utdelat material” och fliken Designprojekt. Fysikalisk-kemiska data kan hämtas från 
+exempelvis www.nist.gov. 
+
+EXAMINATION 
+
+För godkänd kursdel dvs designprojekt fordras godkänd projektuppgift, rapport samt 
+presentation. 
+
+PERSONAL 
+
+Examinator är Krister Ström och ansvariga för konsultationstillfällen är Xavier Auvray, 
+Urban Grén och Erik Karlsson som träffas i seminarierummet på avdelningen för Kemiteknik. 
+
+
+TIDPLAN 
+
+Syftet med delrapporteringarna är att följa upp vad som är genomfört och tidigt ge 
+återkoppling på vad som behöver åtgärdas för att undvika förseningar och felaktiga ansatser i 
+det fortsatta arbetet. För att underlätta inlämningen av del-och slutrapporter skall filerna 
+namnges på formatet GruppX_RapportY.docx för Wordfiler respektive GruppX_RapportY.m 
+för MATLABfiler. X är ditt gruppnummer och Y är D1, D2 alt S för delinlämning1, 
+delinlämning 2 och slutrapport. 
+
+Delrapportering 
+
+Delrapportering 1: 
+30 mars – Preliminär skiss av flödesschema med angivande av 
+tryck-och temperaturnivåer i strömmar samt vilka ämnen som 
+finns i strömmarna. En redovisning av material-och 
+värmebalanser som reaktormodellen är baserad på samt 
+
+
+CHALMERS TEKNISKA HÖGSKOLA Kurs-PM 
+Institutionen för kemi-och bioteknik 2012-03-05 
+Sid nr 5 av 9 
+
+MATLABkod. Filinlämning via kurshemsidan senast kl 17.00. 
+Återkoppling på delrapporteringen ges på kurshemsidan. 
+
+Ansvarig: Xavier Auvray 
+
+Delrapportering 2: 
+27 april – Ett utvecklat flödesschema samr en redovisning av 
+material-och värmebalanser som separationssteg och utrustning 
+för värmning/kylning är baserad på samt MATLABkod. 
+Uppdaterat flödesschema. Jämviktskurva samt MATLABkod för 
+beräkning av jämviktskurva. Vidare skall tabell med angivande av 
+flöden, temperatur, tryck och samman-sättningar för strömmar 
+anges i rapporten. Kopplingen mellan strömmar och var de hör 
+hemma i processplanen ska vara tydlig. Filinlämning via 
+kurshemsidan senast kl 17.00. Återkoppling på delrapporteringen 
+ges på kurshemsidan. 
+
+Ansvariga: Urban Grén och Erik Karlsson 
+
+Slutrapportering 
+
+Slutrapport: 
+10 maj – Inlämning av skriftlig rapport. Filinlämning via 
+kurshemsidan senast kl 17.00. 
+
+Presentation: 
+15 maj – Presentation av arbetet i tvärgrupper. Detaljerat 
+presentationsschema publiceras på kurshemsidan torsdagen den 7 
+maj. 
+
+Tiden mellan rapporteringarna används till att få en fungerande modell över processen samt 
+kostnadsberäkning för olika fall. Delrapporteringarnas syfte är att tidigt ge tidig återkoppling 
+så att eventuella fel kan rättas innan hela arbetet slutrapporteras. Returer på slutrapporten 
+lämnas ut den 23 maj och korrigeringar i rapporten lämnas in senast 8 juni på kurshemsidan. 
+
+
+CHALMERS TEKNISKA HÖGSKOLA Kurs-PM 
+Institutionen för kemi-och bioteknik 2012-03-05 
+
+Sid nr 6 av 9 
+
+FÖRUTSÄTTNINGAR FÖR KOSTNADSUPPSKATTNING AV KAPITALKOSTNADER 
+
+Kostnadsuppskattningen kan göras baserat på data i nedanstående information, samt med att 
+index (inflationsuppskrivning) kan beräknas på följande sätt 
+
+(Index från 1958 till innevarande år) / (Index från 1958 till kostnadsåret) 
+
+om data hämtas från andra källor. Kostnadsindex finns i tidskriften Chemical Engineering 
+(McGraw Hill). 
+
+Langfaktorn kan sättas lika med 4.0 och skall täcka kostnaden för montering, isolering, 
+instrumentering, rördragning m.m. Total kostnad för processanläggningen blir 
+
+(Reaktor-, värmeväxlar-och kolonnkostnad)·
+××××pundkursen·
+××××Langfaktorn 
+
+Pundkursen kan sättas till 10.40 SEK/£ och dollarkursen till 6.50 SEK/$ samt EURO till 8.80 
+kr/€. 
+
+Reaktor 
+
+Reaktorn kan betraktas som en Process Vessel (där längd/diameterförhållandet kan sättas till 
+2) och kostnaden kan tas ur diagrammet nedan. Katalysatorkostnaden kan försummas i 
+förhållande till övriga kostnader. 
+
+Destillationskolonn 
+
+Kolonnverkningsgraden vid destillation kan sättas till 70 % (och bottenavståndet väljs till 0.45 
+eller 0.60 m). Då inget annat kan bestämmas sätts medeltemperaturdifferensen i destillationskolonnens 
+återkokare och kondensor till 20 K. 
+
+Kompressorer (ur Coulson & Richardson) 
+
+Konstant C: [£] Index, n 
+Cetrifugalkompressor: 500 0.8 
+
+Investeringskostnad = 
+C · 
+Sn där S är kompressorns storlek, skall ges i kW. 
+
+Ugnar (ur Coulson & Richardson) 
+
+Konstant C: [£] Index, n 
+Processugn 
+
+290 0.77
+
+(av standardmaterial, kolstål): 
+
+Investeringskostnad = 
+C · 
+Sn där S är ugnens storlek, skall ges i kW. 
+
+
+CHALMERS TEKNISKA HÖGSKOLA Kurs-PM 
+Institutionen för kemi-och bioteknik 2012-03-05 
+Sid nr 7 av 9 
+
+Värmeväxlare 
+
+
+Räkna på ”floating head” som värmeväxlartyp och vanligt kolstål som material. 
+
+
+
+CHALMERS TEKNISKA HÖGSKOLA Kurs-PM 
+Institutionen för kemi-och bioteknik 2012-03-05 
+Sid nr 8 av 9 
+
+Destillationskolonn och reaktorkärl 
+
+
+
+CHALMERS TEKNISKA HÖGSKOLA Kurs-PM 
+Institutionen för kemi-och bioteknik 2012-03-05 
+Sid nr 9 av 9 
+
+FÖRUTSÄTTNINGAR FÖR KOSTNADSUPPSKATTNING AV DRIFTKOSTNADER 
+
+Drifttid: 8 000 h/år 
+Ekonomisk livslängd 10 år 
+Processförnödenheter: Mättad ånga av 180 oC alternativt 210 oC 
+
+Kylvatten av 14 oC som får värmas till 20 oC 
+Kylmedium för temperaturer under 14 oC 
+Kylmedium för temperaturer under -20 oC 
+El av 380 V 50 Hz 
+Naturgas 
+
+Kostnader för förnödenheter 
+
+Ånga 0.16 kr/kWh (103 kr/ton) 
+Naturgas 0.20 kr/kWh 
+El 0.30 kr/kWh 
+Kylvatten 0.05 kr/ kWh 
+Kylmedium under 14 oC 1.00 kr/ kWh 
+Kylmedium under -20oC 2.25 kr/ kWh 
+
+U-värden 
+
+Vid beräkning av värmeväxlarnas ytor kan följande värden på värmegenomgångstal, U, 
+användas 
+
+Gas/gas-värmeväxling, nära atmosfärstryck 50 W/m2K 
+Gas/gas-värmeväxling, vid höga tryck 100 W/m2K 
+Gas/vätska-värmeväxling 200 W/m2K 
+Vätska/vätska-värmeväxling 2000 W/m2K 
+Kondensor/återkokare 1000 W/m2K 
+Gas/kondenserande ånga/förångning 885 W/m2K 
+
+Temperaturverkningsgrader 
+
+I de fall temperaturverkningsgrad behöver utnyttjas kan den antas vara 80% för 
+värmeväxlarna. Senare kan ni prova att variera temperaturverkningsgraden för att se vilken 
+inverkan den har på värmeväxlarnas area. 
+
+
